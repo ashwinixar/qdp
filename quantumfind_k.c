@@ -65,7 +65,7 @@ double count(int u)
     //reportQuregParams(qubits);
     //reportQuESTEnv(env);
 
-    //Unitary matrix creation corresponding to the "oracle_e"
+    //Unitary matrix creation
 	ComplexMatrixN e = createComplexMatrixN(n);
     for(int i = 0; i < 8; i++)
     {
