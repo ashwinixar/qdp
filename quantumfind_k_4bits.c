@@ -65,7 +65,7 @@ double count(int u)
     //reportQuregParams(qubits);
     //reportQuESTEnv(env);
 
-    //Unitary matrix creation corresponding to the "oracle_e"
+    //Unitary matrix creation
 	ComplexMatrixN e = createComplexMatrixN(n);
     for(int i = 0; i < 16; i++)
     {
@@ -150,7 +150,7 @@ int main (int narg, char *varg[])
     int k;
     int found = 0;
     int u = 0;
-    int num = 16; //2^3
+    int num = 16; //2^4
     for(int i = 1; i <= 4; i++) //Running for all hamming weights
     {
     	k = i;
